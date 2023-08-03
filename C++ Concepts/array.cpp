@@ -44,6 +44,7 @@ int main () {
         for(j=0; j<3; j++)
         {
             cout<<"\t"<<C[i][j];
+            cout<<"\n"<<endl;
         }
         cout<<"\n";
     }
