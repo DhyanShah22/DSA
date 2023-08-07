@@ -24,7 +24,6 @@ int main()
     e3.EXP=4.5;
     e3.G= 'M';
 
-
     cout<<"Enter Employee name"<<endl;
     cin>>e1.Name;
     cout<<"Enter Employee user id."<<endl;
