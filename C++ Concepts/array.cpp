@@ -7,10 +7,8 @@ int main () {
     int i;
 
     for(i=0; i<5; i++) {
-        cout<<A[i];
-        cout<<"\t";
+        cout<<A[i]<<endl;
     }
-    cout<<endl;
 
     int n;
     cout<<"Enter the number of elements in the array"<<endl;
@@ -25,11 +23,9 @@ int main () {
     }
 
     for(i=0; i<n; i++) {
-        cout<<B[i]<<"\t";
+        cout<<B[i]<<endl;
     }
-    cout<<endl;
-    cout<<"The size of an array with 5 elements is: "<<sizeof(A)<<endl;
-    cout<<endl;
+    cout<<sizeof(A)<<endl;
 
     int j;
     int C[3][3];

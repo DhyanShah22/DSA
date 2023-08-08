@@ -17,6 +17,6 @@ int main()
             largest = arr[i];
         }
     }
-    cout<<"The Second Largest number is: "<<"\n"<<secondLargest<<endl;
+    cout<<secondLargest<<endl;
     return 0;
 }
